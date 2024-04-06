@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Image, Box } from "@chakra-ui/react";
+import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Image src="/Mascot_Popup_256.gif" alt="Image" />
+        <Box
+          width={256}
+          height={16}
+          bgGradient="linear(to-b, gray.900, transparent)"
+
         >
-          Learn React
-        </a>
+        </Box>
       </header>
     </div>
   );
 }
+
 
 export default App;
