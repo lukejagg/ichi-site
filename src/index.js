@@ -7,7 +7,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 import executeInDevMode from '@speckai/paige';
 // executeInDevMode('http://localhost:8080/npm/script.js');
-executeInDevMode();
+executeInDevMode('192.168.86.146:8080/npm/script.js');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
