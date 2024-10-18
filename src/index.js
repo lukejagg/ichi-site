@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react';
 
 import executeInDevMode from '@speckai/paige';
-executeInDevMode('http://localhost:8080/npm/script.js');
+// executeInDevMode('http://localhost:8080/npm/script.js');
+executeInDevMode();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
