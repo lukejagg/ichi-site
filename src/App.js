@@ -56,7 +56,7 @@ function App() {
                   lineHeight="105%"
                   maxWidth="4xl"
               >
-                Speck
+                SPECK!
               </Text>
               </Link>
 
@@ -75,7 +75,7 @@ function App() {
                   lineHeight="105%"
                   maxWidth="8xl"
               >
-                Automate your browser.
+                Applied AI Lab
               </Text>
           </Box>
 
