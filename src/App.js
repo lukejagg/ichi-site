@@ -56,7 +56,7 @@ function App() {
                   lineHeight="105%"
                   maxWidth="4xl"
               >
-                Speck
+                Paige
               </Text>
               </Link>
 
