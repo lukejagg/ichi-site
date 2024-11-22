@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import './App.css';
 import { Image, Box, Link, Button, Text } from "@chakra-ui/react";
 import './App.css';
